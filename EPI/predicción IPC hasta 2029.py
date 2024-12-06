@@ -59,8 +59,8 @@ for i, anio in enumerate(anios_prediccion):
 
 # Configuración del gráfico
 ax.set_xlabel('Año')
-ax.set_ylabel('Promedio (%)')
-ax.set_title('Evolución de Promedios Anuales y Predicción IPC con Variación Porcentual')
+ax.set_ylabel('Puntos anuales IPC Promedio')
+ax.set_title('Evolución de Promedios Anuales y Predicción IPC')
 ax.legend()
 ax.grid(True)
 
